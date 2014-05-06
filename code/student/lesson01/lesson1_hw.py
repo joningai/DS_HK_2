@@ -1,4 +1,5 @@
-C#!/usr/bin/python
+
+#!/usr/bin/python
 # Import required libraries
 import sys
 
