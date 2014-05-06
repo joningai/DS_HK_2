@@ -1,0 +1,19 @@
+#!/usr/bin/python
+# Import required libraries
+import numpy as np
+
+
+
+def iMatrix(n):
+    """
+    Function that creates an identify matrix at any size    
+    """
+    print n
+    matrix = np.zeros((2,2))
+    return matrix
+
+
+print iMatrix(2)
+
+
+### EOF ###
