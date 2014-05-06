@@ -9,11 +9,15 @@ def iMatrix(n):
     Function that creates an identify matrix at any size    
     """
     print n
-    matrix = np.zeros((2,2))
+    matrix = np.zeros((n,n))
+
+    for k in range(n):
+        matrix[k,k] = 1
+
     return matrix
 
 
-print iMatrix(2)
+print iMatrix(3)
 
 
 ### EOF ###
